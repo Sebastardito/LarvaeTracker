@@ -28,7 +28,7 @@ LarvaeTracker is a comprehensive web-based application designed for analyzing an
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/larvae-tracker.git
+git clone https://github.com/Sebastardito/LarvaeTracker.git
 cd larvae-tracker
 ```
 
