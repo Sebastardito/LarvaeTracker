@@ -29,8 +29,7 @@ LarvaeTracker is a comprehensive web-based application designed for analyzing an
 1. Clone the repository:
 ```bash
 git clone https://github.com/Sebastardito/LarvaeTracker.git
-cd larvaetracker
-tracker
+cd LarvaeTracker
 ```
 
 2. Create a virtual environment (recommended):
@@ -83,7 +82,7 @@ PopB,Cycle2,Group3,10,2024-03-01,0.28,16.1
 
 ## Application Structure
 ```
-larvae-tracker/
+LarvaeTracker/
 ├── tracker.py            # Main Flask application
 ├── templates/
 │   └── index.html        # Dashboard HTML template
