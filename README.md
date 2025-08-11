@@ -1,5 +1,7 @@
 # 🐛 LarvaeTracker - Interactive Larvae Growth Analysis Platform
 
+![LarvaeTracker Banner](https://github.com/Sebastardito/LarvaeTracker/blob/41798d4e8cd410cd979dbf8281b3a5adc23e8b9a/static/images/app320.png) 
+
 **LarvaeTracker** is a powerful web application for researchers studying larvae development. It transforms raw growth data into interactive visualizations and statistical insights, accelerating your analysis workflow.
 
 ## ✨ Key Features
