@@ -876,8 +876,8 @@ def calculate_advanced_statistics(selected_populations, selected_cycles, selecte
                     'factor': 'Population',
                     'metric': 'last_point',
                     'test': 'ANOVA',
-                    'f_value': anova_table['F'][0],
-                    'p_value': anova_table['PR(>F)'][0]
+                    'f_value': anova_table['F'].iloc[0],
+                    'p_value': anova_table['PR(>F)'].iloc[0]
                 })
             except Exception as e:
                 logger.error(f"ANOVA error for population: {str(e)}")
@@ -891,8 +891,8 @@ def calculate_advanced_statistics(selected_populations, selected_cycles, selecte
                     'factor': 'Cycle',
                     'metric': 'slope',
                     'test': 'ANOVA',
-                    'f_value': anova_table['F'][0],
-                    'p_value': anova_table['PR(>F)'][0]
+                    'f_value': anova_table['F'].iloc[0],
+                    'p_value': anova_table['PR(>F)'].iloc[0]
                 })
             except Exception as e:
                 logger.error(f"ANOVA error for cycle: {str(e)}")
