@@ -1,10 +1,22 @@
 # 🐛 LarvaeTracker - Interactive Larvae Growth Analysis Platform
 
-![LarvaeTracker Banner](https://github.com/Sebastardito/LarvaeTracker/blob/41798d4e8cd410cd979dbf8281b3a5adc23e8b9a/static/images/app320.png) 
+<p align="center">
+  <img src="https://github.com/Sebastardito/LarvaeTracker/blob/41798d4e8cd410cd979dbf8281b3a5adc23e8b9a/static/images/app320.png" 
+       alt="LarvaeTracker Banner" 
+       width="320"
+       style="max-width: 100%; 
+              height: auto;
+              border-radius: 10px;
+              box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+              margin: 25px 0;">
+</p>
 
 **LarvaeTracker** is a powerful web application for researchers studying larvae development. It transforms raw growth data into interactive visualizations and statistical insights, accelerating your analysis workflow.
 
 ## ✨ Key Features
+
+<div align="center">
+
 | Feature | Description |
 |---------|-------------|
 | **📈 Interactive Visualizations** | Plot growth curves with customizable standard deviations |
@@ -16,6 +28,8 @@
 | **🔍 Cluster Analysis** | Identify similar patterns with hierarchical clustering |
 | **📄 Automated Reporting** | Generate comprehensive PDF reports with visualizations |
 | **🎨 Responsive Dashboard** | Modern UI with dark/light theme support |
+
+</div>
 
 ---
 
@@ -58,6 +72,8 @@ The application will automatically open in your browser at `http://127.0.0.1:500
 
 ## 📂 Data Requirements
 Your CSV should include these columns:
+<div align="center">
+
 | Column | Required | Description | Example |
 |--------|----------|-------------|---------|
 | `Population` | ✓ | Population identifier | `PopA` |
@@ -66,6 +82,8 @@ Your CSV should include these columns:
 | `Age_Days` | ✓ | Age in days | `10` |
 | `Data_Date` | △ | Measurement date | `2024-03-01` |
 | Measurement Columns | ✓ | Growth metrics | `Indv_Weight` |
+
+</div>
 
 **Example CSV Structure** (default ';' separator):
 ```csv
